@@ -1,0 +1,912 @@
+# depslib dependency file v1.0
+1548154827 source:c:\nikola\projects\diplomski1\main.cpp
+	"application.h"
+
+1488656144 c:\nikola\projects\deps\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_config.h
+	"SDL_platform.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\begin_code.h
+
+1476939494 c:\nikola\projects\deps\include\sdl\close_code.h
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476939494 c:\nikola\projects\deps\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1543783799 source:c:\nikola\projects\diplomski1\display.cpp
+	"display.h"
+	<GL/glew.h>
+	<iostream>
+
+1532060713 c:\nikola\projects\diplomski1\display.hpp
+	<string>
+	<SDL/SDL.h>
+
+1532094791 c:\nikola\projects\deps\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1543783823 c:\nikola\projects\diplomski1\display.h
+	<string>
+	<SDL/SDL.h>
+
+1548156869 c:\nikola\projects\diplomski1\include\display.h
+	<string>
+	<SDL/SDL.h>
+	<GL/glew.h>
+	<SDL/SDL_ttf.h>
+
+1548383360 source:c:\nikola\projects\diplomski1\src\application.cpp
+	"application.h"
+	<iostream>
+
+1548383360 c:\nikola\projects\diplomski1\include\application.h
+	"controller.h"
+
+1548377704 source:c:\nikola\projects\diplomski1\src\display.cpp
+	"display.h"
+	<iostream>
+
+1548383360 c:\nikola\projects\diplomski1\include\controller.h
+	"display.h"
+	"car.h"
+	"camera.h"
+	"windows.h"
+
+1548384376 source:c:\nikola\projects\diplomski1\src\controller.cpp
+	"controller.h"
+	<iostream>
+
+1548808533 source:c:\nikola\projects\diplomski1\src\car.cpp
+	"car.h"
+	<iostream>
+
+1548425491 c:\nikola\projects\diplomski1\include\car.h
+	"drawable.h"
+
+1548151656 source:c:\nikola\projects\diplomski1\src\drawable.cpp
+	"drawable.h"
+	<iostream>
+
+1548012778 c:\nikola\projects\diplomski1\include\drawable.h
+	<vector>
+	<fstream>
+	<string>
+	<sstream>
+	<cstring>
+	<GL/glew.h>
+	<SDL/SDL.h>
+	"glm/glm.hpp"
+	<glm/gtc/matrix_transform.hpp>
+	"shader.h"
+
+1545265430 c:\nikola\projects\diplomski1\include\shader.h
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1548377877 source:c:\nikola\projects\diplomski1\src\shader.cpp
+	"shader.h"
+
+1488365402 c:\nikola\projects\deps\include\gl2\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1548133378 c:\nikola\projects\diplomski1\include\camera.h
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<vector>
+
+1483980454 c:\nikola\projects\deps\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1483980454 c:\nikola\projects\deps\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1483980462 c:\nikola\projects\deps\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483980454 c:\nikola\projects\deps\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\_swizzle.hpp
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\_swizzle_func.hpp
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_vec2.inl
+
+1483980454 c:\nikola\projects\deps\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_vec3.inl
+
+1483980454 c:\nikola\projects\deps\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_vec4_simd.inl
+
+1483980454 c:\nikola\projects\deps\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1483980454 c:\nikola\projects\deps\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat2x3.inl
+
+1483980454 c:\nikola\projects\deps\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat2x4.inl
+
+1483980454 c:\nikola\projects\deps\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat3x2.inl
+
+1483980454 c:\nikola\projects\deps\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1483980454 c:\nikola\projects\deps\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat3x4.inl
+
+1483980454 c:\nikola\projects\deps\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat4x2.inl
+
+1483980454 c:\nikola\projects\deps\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat4x3.inl
+
+1483980454 c:\nikola\projects\deps\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_mat4x4_simd.inl
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483980454 c:\nikola\projects\deps\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1483980454 c:\nikola\projects\deps\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1483980454 c:\nikola\projects\deps\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1483980454 c:\nikola\projects\deps\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_vec1.inl
+
+1483980454 c:\nikola\projects\deps\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_vector_relational_simd.inl
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1483980454 c:\nikola\projects\deps\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483980462 c:\nikola\projects\deps\include\glm\simd\exponential.h
+	"platform.h"
+
+1483980454 c:\nikola\projects\deps\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1483980454 c:\nikola\projects\deps\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1483980454 c:\nikola\projects\deps\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483980462 c:\nikola\projects\deps\include\glm\simd\common.h
+	"platform.h"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483980462 c:\nikola\projects\deps\include\glm\simd\geometric.h
+	"common.h"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1483980462 c:\nikola\projects\deps\include\glm\simd\matrix.h
+	"geometric.h"
+
+1483980454 c:\nikola\projects\deps\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_trigonometric_simd.inl
+
+1483980454 c:\nikola\projects\deps\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483980454 c:\nikola\projects\deps\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483980454 c:\nikola\projects\deps\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\type_half.inl
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_packing_simd.inl
+
+1483980454 c:\nikola\projects\deps\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483980454 c:\nikola\projects\deps\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483980454 c:\nikola\projects\deps\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1483980456 c:\nikola\projects\deps\include\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483980462 c:\nikola\projects\deps\include\glm\simd\integer.h
+
+1483980458 c:\nikola\projects\deps\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1483980458 c:\nikola\projects\deps\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1483980458 c:\nikola\projects\deps\include\glm\gtc\constants.inl
+	<limits>
+
+1483980458 c:\nikola\projects\deps\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1547957819 source:c:\nikola\projects\diplomski1\src\camera.cpp
+	"camera.h"
+
+1454362933 c:\nikola\projects\deps\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
