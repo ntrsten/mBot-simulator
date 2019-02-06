@@ -586,7 +586,7 @@ void Controller::DrawText(const char * text)
 {
     unsigned int textTexture = getSevenSegment(font, text);
     glEnable(GL_BLEND);
-    glBlendFunc(GL_SRC_ALPHA, GL_NONE);
+    glBlendFunc(GL_SRC_ALPHA, GL_ZERO);
     Drawable textBox(textTexture);
     textBox.Draw(m_shader,
               glm::vec3(m_camera->Position.x + m_camera->Front.x + m_camera->Up.x * 0.3 + m_camera->Right.x * 0.5,
