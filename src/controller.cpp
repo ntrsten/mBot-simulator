@@ -48,15 +48,19 @@ void LoadCode(std::vector< std::string > &setupCode, std::vector< std::string > 
     {
         HANDLE clip;
         clip = GetClipboardData(CF_TEXT);
-        if (clip == 0)
+        if (clip == 0){
+            CloseClipboard();
             return;
+        }
         char* data = static_cast<char*>( GlobalLock(clip) );
-        if (data == 0)
+        if (data == 0){
+            GlobalUnlock(clip);
+            CloseClipboard();
             return;
+        }
         clipText = (const char*)clip;
 
         GlobalUnlock(clip);
-
         CloseClipboard();
     }
     std::stringstream clipStream(clipText);
@@ -87,7 +91,7 @@ void LoadCode(std::vector< std::string > &setupCode, std::vector< std::string > 
 }
 
 unsigned int getSevenSegment(TTF_Font *font, const char *number){
-    SDL_Color red = {255, 55, 55, 0};
+    SDL_Color red = {255, 0, 0};
     SDL_Surface *textSurface = TTF_RenderUTF8_Blended(font, number, red);
 
     unsigned int textID;
@@ -182,6 +186,7 @@ float Controller::GetNextCommandFromArray(std::vector< std::string > carCode)
         float speed;
         speedString >> speed;
         if (speed > 255) speed = 255;
+        if (speed < -255) speed = -255;
 
         if(direction == '1'){
             m_car->SetLWheelSpeed(speed);
@@ -216,6 +221,7 @@ float Controller::GetNextCommandFromArray(std::vector< std::string > carCode)
         float speed;
         speedString >> speed;
         if (speed > 255) speed = 255;
+        if (speed < -255) speed = -255;
         m_car->SetLWheelSpeed(speed);
         currentLine++;
         return 0;
@@ -228,6 +234,7 @@ float Controller::GetNextCommandFromArray(std::vector< std::string > carCode)
         float speed;
         speedString >> speed;
         if (speed > 255) speed = 255;
+        if (speed < -255) speed = -255;
         m_car->SetRWheelSpeed(speed);
         currentLine++;
         return 0;
@@ -579,13 +586,14 @@ void Controller::DrawText(const char * text)
 {
     unsigned int textTexture = getSevenSegment(font, text);
     glEnable(GL_BLEND);
-    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+    glBlendFunc(GL_SRC_ALPHA, GL_NONE);
     Drawable textBox(textTexture);
     textBox.Draw(m_shader,
               glm::vec3(m_camera->Position.x + m_camera->Front.x + m_camera->Up.x * 0.3 + m_camera->Right.x * 0.5,
                                   m_camera->Position.y + m_camera->Front.y + m_camera->Up.y * 0.3 + m_camera->Right.y * 0.5,
                                   m_camera->Position.z + m_camera->Front.z + m_camera->Up.z * 0.3 + m_camera->Right.z * 0.5),
               -m_camera->Yaw, m_camera->Pitch, m_camera->Right, glm::vec3(1.0f, 1.0f, 1.0f));
+    glDisable(GL_BLEND);
 }
 
 void Controller::Draw()
