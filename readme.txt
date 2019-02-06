@@ -15,3 +15,7 @@ controls:
 		mouse		look
 		ESC			quit
 		RETURN		start executing code
+		
+		
+		
+For development, unzip deps and move the deps folder outside of project folder, alongside it.
