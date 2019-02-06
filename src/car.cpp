@@ -40,12 +40,12 @@ Car::~Car()
 
 void Car::SetRWheelSpeed(float speed)
 {
-    rWheelSpeed = float(720) / float(1000) * (speed / float(255));
+    rWheelSpeed = float(m_settings.wheelRotationPerSecond) / float(1000) * (speed / float(255));
 }
 
 void Car::SetLWheelSpeed(float speed)
 {
-    lWheelSpeed = float(720) / float(1000) * (speed / float(255));
+    lWheelSpeed = float(m_settings.wheelRotationPerSecond) / float(1000) * (speed / float(255));
 }
 
 void Car::CalculateMovement(std::vector< std::vector< int > > walls, float deltaTime)
