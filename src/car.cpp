@@ -171,7 +171,7 @@ float Car::GetUltraSonicReading(std::vector< std::vector< int > > walls)
     int newXindex, newZindex;
     while(!isOver)
     {
-        if (calculatedDistance >= 50.00)
+        if (calculatedDistance >= 40.00)
         {
             isOver = true;
             continue;
